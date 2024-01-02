@@ -29,7 +29,7 @@ public class Operation06 {
         System.out.println(text3 == text4); //false
         System.out.println(text3.equals("sample")); //true
         System.out.println(text3.equals("sample")); //true
-
+        System.out.println("테스트 코드 작성");
     }
 
 }

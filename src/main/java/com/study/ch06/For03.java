@@ -23,6 +23,8 @@ public class For03 {
             System.out.println();
         }
 
+        System.out.println();
+
         /*
         * ***
         * **
@@ -36,39 +38,41 @@ public class For03 {
             System.out.println();
         }
 
-        /*
-        *    *
-        *   **
-        *  ***
-        */
-
-        for(int i = 0; i < starCount; i++) {
-            for(int j = starCount - i; j > 1; j--) {
-                System.out.print(" ");
-            }
-            for(int k = 0; k <= i; k++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        System.out.println();
 
         /*
+        *   *
+        *  **
+        * ***
+        *
         * ***
         *  **
         *   *
         */
 
-        System.out.println("--");
-
-        for(int i = 1; i <= starCount; i++) {
-            for(int j = 1; j < i; j++) {
+        for(int i = 0; i < starCount; i++) {
+            for(int j = 0; j < starCount - (i + 1); j++) {
                 System.out.print(" ");
             }
-            for(int k = starCount; k >= i; k--) {
+            for(int j = 0; j < i + 1; j++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
+
+        System.out.println();
+
+        for(int i = 0; i < starCount; i++) {
+            for(int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            for(int j = 0; j < starCount - i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
 
         /*
         *   *
@@ -77,38 +81,15 @@ public class For03 {
         */
 
         for(int i = 0; i < starCount; i++) {
-            for(int j = 0; j < starCount - i + 1 ; j++) {
+            for(int j = 0; j < starCount - (i + 1); j++) {
                 System.out.print(" ");
             }
-            for(int k = 0; k < i * 2 - 1; k++) {
+            for(int j = 0; j < i * 2 + 1; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
 
-        /*
-        *
-        * *
-        * **
-        * ***
-        *
-        * ***
-        * **
-        * *
-        *
-        *
-        *   *
-        *  **
-        * ***
-        *
-        * ***
-        *  **
-        *   *
-        *
-        *   *
-        *  ***
-        * *****
-        */
     }
 
 }

@@ -41,8 +41,6 @@ public class AcademyMain {
 
             academyService.registerAcademyService(academyEntity);
 
-
-
     }
 
 }

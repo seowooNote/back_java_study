@@ -10,7 +10,6 @@ public class AcademyMain {
         AcademyService2 academyService2 = new AcademyService2(scanner);
         academyService1.create();
         academyService2.create();
-
     }
 
 }

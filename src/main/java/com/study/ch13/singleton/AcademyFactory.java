@@ -2,7 +2,7 @@ package com.study.ch13.singleton;
 
 public class AcademyFactory {
     // Singleton
-    // 1) 자기 자신 클래스 자료형을 가지는 변수를 생성(변수명은 instance 고정 / private static)
+    // 1) 자기 자신 클래스 자료형을 가지는 변수 선언(변수명은 instance 고정 / private static)
     private static AcademyFactory instance;
 
     private int autoCount;
